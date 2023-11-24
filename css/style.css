@@ -1,4 +1,9 @@
-body{font-family: Arial, Helvetica, sans-serif;}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+    
 /* ---------------- navigation bar styles ---------------- */
 .main-nav{
     background-color: #F7F7F8;
@@ -10,7 +15,28 @@ a{
 }
 #selected{color: #5762D5;}
 
+/* ---------------- Intro Section ---------------- */
+#intro{
+    background-color: #262627;
+    color: #fff;
+}
+
+.product-card{
+    background-color: rgb(29, 29, 29);
+    border-radius: 20px;
+    width: 250px;
+}
+
 .product-img{
-    border: solid 2px #3C404A;
-    border-radius: 25px;
+    color: #fff;
+    border: solid 2px #5e4d03;
+    border-radius: 25px 50px;
+    width: 240px;
+}
+footer{
+    background-color: #262627;
+    height: 300px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
 }
