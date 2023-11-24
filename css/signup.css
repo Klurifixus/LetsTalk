@@ -1,8 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+    
+/* ---------------- navigation bar styles ---------------- */
+.main-nav{
+    background-color: #F7F7F8;
+    padding: 10px;
+}
 .main-nav a{
     font-size: 20px;
     color: #3d414a;
     text-decoration: none;
+    transition-duration: 0.2s;
 }
+.main-nav a:hover{
+    color: #121c8d;
+    
+}
+
+#selected{color: #55511a;}
 
 form{
     width: 280px;
@@ -27,5 +45,10 @@ button{
     padding: 10px 0;
     font-size: 20px;
     font-weight: bold;
+    transition-duration: 0.1s;
 
+}
+button:hover{
+    background-color: #6e50f3;
+    cursor: pointer;
 }
