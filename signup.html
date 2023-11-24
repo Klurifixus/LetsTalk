@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Earn Webshop</title>
+    <title>SignUp</title>
 </head>
 <body>
     <!--header-->
@@ -18,5 +18,34 @@
     </nav>
     <hr>
     <h1>Signup</h1>
+    <form action="signup.php" method="post">
+
+        <label for="username">Username:</label><br>
+        <input type="text" name="username" id="username" required>
+        <br><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="password" required>
+        <br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" name="phone" id="phone" required>
+        <br><br>
+        <label for="city">City:</label><br>
+        <input type="text" name="city" id="city" required>
+        <br><br>
+        <label for="gender">Gender:</label><br>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="hbtq">Myself</option>
+        </select>
+        <br><br>
+        <label for="image">Profile image:</label><br>
+        <input type="file" id="image">
+        <br><br>
+        <input type="checkbox" id="terms"><label for="terms">I agree on the <a href="terms.html" id="selected">terms of use</a></label>
+        <button type="submit">Signup</button>
 </body>
 </html>
