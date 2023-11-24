@@ -16,15 +16,32 @@ a{
 #selected{color: #5762D5;}
 
 /* ---------------- Intro Section ---------------- */
+
 #intro{
     background-color: #262627;
     color: #fff;
 }
+/* ---------------- Main Content ---------------- */
+#nav-cat{
+    background-color: #444917;
+    color: rgb(14, 13, 12);
+    margin: auto;
+
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .product-card{
     background-color: rgb(29, 29, 29);
+    color: rgb(199, 177, 81);
     border-radius: 20px;
     width: 250px;
+    height: 600px;
+    margin: auto;
 }
 
 .product-img{
@@ -32,6 +49,7 @@ a{
     border: solid 2px #5e4d03;
     border-radius: 25px 50px;
     width: 240px;
+    height: 163px;
 }
 footer{
     background-color: #262627;
