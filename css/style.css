@@ -102,6 +102,22 @@ a {
   color: rgb(14, 13, 12);
   margin: auto;
 }
+.menylink {
+  color: white;
+  font-size: 1, 5em;
+  z-index: 2;
+  font-weight: bold;
+  border-radius: 15px 15px 0 0;
+  background-color: #262627;
+  padding: 10px 95px;
+  border: solid 2px #5e4d03;
+}
+.menylink:hover {
+  cursor: pointer;
+  background-color: #f5e237;
+  border: solid 2px #5e4d03;
+  color: #020202;
+}
 
 .products-container {
   display: flex;
