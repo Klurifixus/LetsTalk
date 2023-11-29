@@ -20,7 +20,7 @@
     <!--header-->
     <header>
         <img src="image/earnlogo.png" class="logotype" alt="Earn Logotype" width="140">
-        
+        <button class="hamburger">&#9776;</button>
         <nav class="main-nav">
             <a href="index.html" id="selected">Home</a>
             <a href="shop.html">Menu</a>
@@ -85,10 +85,28 @@
                 <p>Pizza with 4 diffrent cheese, artichokes, basilica, truffel/garlic oil and tomatoes</p>
             </div>
         </div>
-        
+    </div>    
     <hr>
+    <!--Tabel booking or catering-->
+    <form>
+        <input placeholder="name" id="name">
+        <input placeholder="lastname" id="lastname">
+        <button type="button" onclick="submitBooking()">Book Tabel</button>
+    </form>
+    <h2 id="displayTitle">this is my title</h2>
+
+    <!--    Footer    -->
     <footer>
         <h2>Foooooooter</h2>
     </footer>
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('.hamburger').addEventListener('click', function() {
+                document.querySelector('.main-nav').classList.toggle('show');
+            });
+        });
+    </script>
+    <script src="index.js"></script>
 </body>
 </html>
